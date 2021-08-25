@@ -98,7 +98,7 @@ Read the wiki page on [CORS][cors].
 
 The pact-stub-service allows you to reuse interactions that have been generated in previous tests. The typical situation would be to generate your pact file using unit tests, and then use the pact stub service for your higher level integration/ui tests. To help reduce the number of interactions that need verifying, you will want to use flexible matching on both requests and responses.
 
-Unlike the mock service, which has a Ruby DSL for managing its lifecycle, the mock service can currently only be started from the command line, so you will need to start/background/kill the process yourself. If this is causing problems, please raise it in the pact-dev google group and we can discuss potential enhancements.
+Unlike the mock service, which has a Ruby DSL for managing its lifecycle, the stub service can currently only be started from the command line, so you will need to start/background/kill the process yourself. If this is causing problems, please raise it in the pact-dev google group and we can discuss potential enhancements.
 
 ```
 Usage:
